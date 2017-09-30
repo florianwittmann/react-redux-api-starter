@@ -1,0 +1,11 @@
+// 1. Import the initial variables
+@import "../../node_modules/bulma/sass/utilities/initial-variables";
+
+// 2. Overwrite with our own initial variables
+@import "./bulma-variables.scss";
+
+// 3. Load Bulma
+@import "../../node_modules/bulma/bulma.sass";
+
+// 4. Space for custom styles
+@import "./customstyles.scss";
