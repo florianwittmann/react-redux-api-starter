@@ -23,7 +23,7 @@ export function loginUser({ email, password }, callback) {
     dispatch({ type: LOGIN_INPROGRESS });
 
     // submit email/password to server
-    axios
+    return axios
       .post(`${ROOT_URL}/user/login`, { email, password })
       .then(response => {
         // If request is good
