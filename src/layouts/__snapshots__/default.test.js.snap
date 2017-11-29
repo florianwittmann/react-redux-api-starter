@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should test the layout comp with title and subtitle 1`] = `
+<div>
+  <section
+    className="hero is-primary"
+  >
+    <div
+      className="hero-body"
+    >
+      <div
+        className="container"
+      >
+        <h1
+          className="title"
+        >
+          Layout title
+        </h1>
+        <h2
+          className="subtitle"
+        >
+          Layout subtitle
+        </h2>
+      </div>
+    </div>
+  </section>
+  <section
+    className="section"
+  >
+    <div
+      className="container"
+    />
+  </section>
+</div>
+`;
+
+exports[`should test the layout comp without titles 1`] = `
+<div>
+  <section
+    className="hero is-primary"
+  >
+    <div
+      className="hero-body"
+    >
+      <div
+        className="container"
+      />
+    </div>
+  </section>
+  <section
+    className="section"
+  >
+    <div
+      className="container"
+    />
+  </section>
+</div>
+`;

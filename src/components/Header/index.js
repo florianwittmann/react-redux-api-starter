@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 import { Link, NavLink, withRouter } from "react-router-dom";
 import { toggleBurgerMenu, closeBurgerMenu } from "./data/actions";
 
-const Header = ({
+export const Header = ({
   onToggleBurgerMenu,
   onCloseBurgerMenu,
   burgerMenuActive,

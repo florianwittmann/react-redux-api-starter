@@ -12,7 +12,7 @@ import {
 import { loginUser } from "../../data/user/actions";
 import { withRouter, Link } from "react-router-dom";
 
-const LoginForm = props => {
+export const LoginForm = props => {
   const onSubmit = ({ email, password }) => {
     props.loginUser({ email, password }, () => {
       props.history.push("/dashboard");

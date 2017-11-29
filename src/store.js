@@ -16,7 +16,5 @@ const store = createStore(
   rootReducer,
   composeEnhancers(applyMiddleware(reduxThunk))
 );
-// const createStoreWithMiddleware = applyMiddleware(reduxThunk)(createStore);
-// const store = createStoreWithMiddleware(rootReducer);
 
 export default store;

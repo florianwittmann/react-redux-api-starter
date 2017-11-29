@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render alert with correct errorMessage 1`] = `
+<div
+  className="notification is-danger"
+>
+  <strong>
+    Ooops!
+  </strong>
+   
+  Some example error message.
+</div>
+`;
+
+exports[`should render empty alert without errorMessage 1`] = `""`;

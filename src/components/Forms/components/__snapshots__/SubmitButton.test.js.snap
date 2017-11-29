@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render SubmitButton 1`] = `
+<div
+  className="field"
+>
+  <div
+    className="control"
+  >
+    <button
+      className="button is-primary "
+      type="submit"
+    >
+      Some Button
+    </button>
+  </div>
+</div>
+`;
+
+exports[`should render SubmitButton inProgress 1`] = `
+<div
+  className="field"
+>
+  <div
+    className="control"
+  >
+    <button
+      className="button is-primary is-loading"
+      type="submit"
+    >
+      Some Button
+    </button>
+  </div>
+</div>
+`;

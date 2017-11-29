@@ -1,0 +1,259 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the header as anonymous user with closed menu 1`] = `
+<div
+  className="container"
+>
+  <nav
+    className="navbar"
+  >
+    <div
+      className="navbar-brand"
+    >
+      <Link
+        className="navbar-item"
+        replace={false}
+        to="/"
+      >
+        <img
+          alt="AppLogo"
+          height="28"
+          src=""
+        />
+      </Link>
+      <div
+        className="navbar-burger "
+      >
+        <span />
+        <span />
+        <span />
+      </div>
+    </div>
+    <div
+      className="navbar-menu "
+    >
+      <div
+        className="navbar-start"
+      />
+      <div
+        className="navbar-end"
+      >
+        <NavLink
+          activeClassName="active"
+          ariaCurrent="true"
+          className="navbar-item"
+          exact={true}
+          to="/"
+        >
+          Home
+        </NavLink>
+        <NavLink
+          activeClassName="active"
+          ariaCurrent="true"
+          className="navbar-item"
+          to="/login"
+        >
+          Login
+        </NavLink>
+        <NavLink
+          activeClassName="active"
+          ariaCurrent="true"
+          className="navbar-item"
+          to="/signup"
+        >
+          Signup
+        </NavLink>
+      </div>
+    </div>
+  </nav>
+</div>
+`;
+
+exports[`should render the header as anonymous user with opened menu 1`] = `
+<div
+  className="container"
+>
+  <nav
+    className="navbar"
+  >
+    <div
+      className="navbar-brand"
+    >
+      <Link
+        className="navbar-item"
+        replace={false}
+        to="/"
+      >
+        <img
+          alt="AppLogo"
+          height="28"
+          src=""
+        />
+      </Link>
+      <div
+        className="navbar-burger is-active"
+      >
+        <span />
+        <span />
+        <span />
+      </div>
+    </div>
+    <div
+      className="navbar-menu is-active"
+    >
+      <div
+        className="navbar-start"
+      />
+      <div
+        className="navbar-end"
+      >
+        <NavLink
+          activeClassName="active"
+          ariaCurrent="true"
+          className="navbar-item"
+          exact={true}
+          to="/"
+        >
+          Home
+        </NavLink>
+        <NavLink
+          activeClassName="active"
+          ariaCurrent="true"
+          className="navbar-item"
+          to="/login"
+        >
+          Login
+        </NavLink>
+        <NavLink
+          activeClassName="active"
+          ariaCurrent="true"
+          className="navbar-item"
+          to="/signup"
+        >
+          Signup
+        </NavLink>
+      </div>
+    </div>
+  </nav>
+</div>
+`;
+
+exports[`should render the header as logged in user  with closed menu 1`] = `
+<div
+  className="container"
+>
+  <nav
+    className="navbar"
+  >
+    <div
+      className="navbar-brand"
+    >
+      <Link
+        className="navbar-item"
+        replace={false}
+        to="/dashboard"
+      >
+        <img
+          alt="AppLogo"
+          height="28"
+          src=""
+        />
+      </Link>
+      <div
+        className="navbar-burger "
+      >
+        <span />
+        <span />
+        <span />
+      </div>
+    </div>
+    <div
+      className="navbar-menu "
+    >
+      <div
+        className="navbar-start"
+      />
+      <div
+        className="navbar-end"
+      >
+        <NavLink
+          activeClassName="active"
+          ariaCurrent="true"
+          className="navbar-item"
+          to="/dashboard"
+        >
+          Dashboard
+        </NavLink>
+        <NavLink
+          activeClassName="active"
+          ariaCurrent="true"
+          className="navbar-item"
+          to="/logout"
+        >
+          Logout
+        </NavLink>
+      </div>
+    </div>
+  </nav>
+</div>
+`;
+
+exports[`should render the header as logged in user  with opened menu 1`] = `
+<div
+  className="container"
+>
+  <nav
+    className="navbar"
+  >
+    <div
+      className="navbar-brand"
+    >
+      <Link
+        className="navbar-item"
+        replace={false}
+        to="/dashboard"
+      >
+        <img
+          alt="AppLogo"
+          height="28"
+          src=""
+        />
+      </Link>
+      <div
+        className="navbar-burger is-active"
+      >
+        <span />
+        <span />
+        <span />
+      </div>
+    </div>
+    <div
+      className="navbar-menu is-active"
+    >
+      <div
+        className="navbar-start"
+      />
+      <div
+        className="navbar-end"
+      >
+        <NavLink
+          activeClassName="active"
+          ariaCurrent="true"
+          className="navbar-item"
+          to="/dashboard"
+        >
+          Dashboard
+        </NavLink>
+        <NavLink
+          activeClassName="active"
+          ariaCurrent="true"
+          className="navbar-item"
+          to="/logout"
+        >
+          Logout
+        </NavLink>
+      </div>
+    </div>
+  </nav>
+</div>
+`;

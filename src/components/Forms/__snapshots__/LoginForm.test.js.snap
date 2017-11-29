@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the LoginForm 1`] = `
+<form>
+  <InputField
+    icon="envelope"
+    name="email"
+    title="Email"
+    type="email"
+  />
+  <InputField
+    icon="lock"
+    name="password"
+    title="Password"
+    type="password"
+  />
+  <Component />
+  <Component>
+    Login
+  </Component>
+  <Link
+    replace={false}
+    to="/reset"
+  >
+    Forgot your password?
+  </Link>
+  <hr />
+  New customer? 
+  <Link
+    replace={false}
+    to="/signup"
+  >
+    Create new account
+  </Link>
+</form>
+`;

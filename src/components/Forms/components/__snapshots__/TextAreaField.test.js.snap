@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should wrap redux-form field correctly 1`] = `
+<Field
+  component={[Function]}
+  name="test"
+  title="Area Title"
+/>
+`;

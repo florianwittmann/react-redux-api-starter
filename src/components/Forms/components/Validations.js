@@ -1,27 +1,27 @@
 export const isRequired = item => {
-  return !item ? "Bitte füllen Sie das Feld aus." : null;
+  return !item ? "This is required." : null;
 };
 
 export const isEmail = item => {
   return item && !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(item)
-    ? "Ungültige Emailadresse."
+    ? "Invalid email."
     : null;
 };
 
 export const minLength = minLength => item => {
   return !item || item.length < minLength
-    ? `Bitte geben Sie mindestens ${minLength} Zeichen ein.`
+    ? `Needs at minimum of ${minLength} characters.`
     : null;
 };
 
 export const maxLength = maxLength => item => {
   return item.length > maxLength
-    ? `Bitte geben Sie maximal ${maxLength} Zeichen ein.`
+    ? `Uses more than the maximum of ${maxLength} characters.`
     : null;
 };
 
 export const matches = fieldName => (item, values) => {
-  return item !== values[fieldName] ? `Keine Übereinstimmung!` : null;
+  return item !== values[fieldName] ? `Won't match!` : null;
 };
 
 export const validate = (values, ruleSet) => {

@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the AppRouter 1`] = `
+<BrowserRouter>
+  <div>
+    <withRouter(Connect(Component)) />
+    <Switch>
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/"
+      />
+      <Route
+        component={[Function]}
+        path="/login"
+      />
+      <Route
+        component={[Function]}
+        path="/signup"
+      />
+      <Route
+        component={[Function]}
+        path="/logout"
+      />
+      <Route
+        component={[Function]}
+        path="/reset/success"
+      />
+      <Route
+        component={[Function]}
+        path="/reset/:token"
+      />
+      <Route
+        component={[Function]}
+        path="/reset"
+      />
+      <Route
+        component={[Function]}
+        path="/dashboard"
+      />
+    </Switch>
+    <Component />
+  </div>
+</BrowserRouter>
+`;

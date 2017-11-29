@@ -12,7 +12,7 @@ import {
 import { requestPasswordReset } from "../../data/user/actions";
 import { withRouter } from "react-router-dom";
 
-const RequestPasswordResetForm = props => {
+export const RequestPasswordResetForm = props => {
   const onSubmit = ({ email }) => {
     props.requestPasswordReset({ email }, () => {
       props.history.push("/reset/success");
