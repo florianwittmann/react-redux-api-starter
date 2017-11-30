@@ -15,6 +15,9 @@ export const minLength = minLength => item => {
 };
 
 export const maxLength = maxLength => item => {
+  if (!item) {
+    return null;
+  }
   return item.length > maxLength
     ? `Uses more than the maximum of ${maxLength} characters.`
     : null;
